@@ -10,9 +10,9 @@ public class Parser {
     public static <type> type parse(String path, Class<type> type) {
         String json = new String();
         try {
-            json = new String(Files.readAllBytes(Paths.get("jsons/test.json")));
+            json = new String(Files.readAllBytes(Paths.get(path)));
         } catch (Exception e) {
-
+            System.out.println("you had an exception");
         }
         type output = thing.fromJson(json, type);
         return output;

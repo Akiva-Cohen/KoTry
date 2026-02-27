@@ -6,7 +6,17 @@
                 {"name" : "mon", "enter" : "8:45"},
                 {"name" : "tus", "enter" : "8:32"},
                 {"name" : "wen", "enter" : "8:39"},
-                {"name" : "thu", ""}
+                {"name" : "thu", "enter" : "8:17"},
+                {"name" : "fri", "enter" : "9:01"}
+            ]
+        }, {
+            "name" : "shakiba fowen",
+            "days" : [
+                {"name" : "mon", "enter" : "8:14"},
+                {"name" : "tus", "enter" : "8:16"},
+                {"name" : "wen", "enter" : "8:15"},
+                {"name" : "thu", "enter" : "8:13"},
+                {"name" : "fri", "enter" : "8:17"}
             ]
         }
     ]
