@@ -1,3 +1,4 @@
+package Grade;
 public class Student {
     public String name;
     public Day[] days;

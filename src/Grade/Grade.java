@@ -1,3 +1,4 @@
+package Grade;
 public class Grade {
     public Student[] students;
 

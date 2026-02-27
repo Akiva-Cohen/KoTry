@@ -16,7 +16,7 @@ public class Parser {
         } catch (Exception e) {
             System.out.println("you had an exception");
         }
-        
+
         return parse(json,type);
     }
 

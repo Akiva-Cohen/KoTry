@@ -1,3 +1,4 @@
+package Orders;
 public class Order {
     public String name;
     public String sku;

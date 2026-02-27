@@ -1,3 +1,4 @@
+package Grade;
 public class Day {
     public String name;
     public String enter;
