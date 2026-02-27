@@ -1,7 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Parser parser = new Parser();
-        Orders orders = parser.parseTest();
+        Orders orders = Parser.parse("jsons/test.json", Orders.class);
         System.out.println(orders);
     }
 }

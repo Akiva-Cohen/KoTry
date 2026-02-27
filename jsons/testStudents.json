@@ -1,0 +1,13 @@
+{
+    "students" : [
+        {
+            "name" : "back brexler",
+            "days" : [
+                {"name" : "mon", "enter" : "8:45"},
+                {"name" : "tus", "enter" : "8:32"},
+                {"name" : "wen", "enter" : "8:39"},
+                {"name" : "thu", ""}
+            ]
+        }
+    ]
+}
