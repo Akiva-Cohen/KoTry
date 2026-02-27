@@ -6,14 +6,17 @@ public class Parser {
     public Parser() {
         thing = new Gson();
     }
-    public Orders parse() {
+    public Orders parseTest() {
+        return parse("jsons/test.json", Orders.class);
+    }
+    public <type> type parse(String path, Class<type> type) {
         String json = new String();
         try {
             json = new String(Files.readAllBytes(Paths.get("jsons/test.json")));
         } catch (Exception e) {
 
         }
-        Orders orders = thing.fromJson(json, Orders.class);
-        return orders;
+        type output = thing.fromJson(json, type);
+        return output;
         }
 }
